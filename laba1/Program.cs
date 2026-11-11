@@ -12,10 +12,10 @@ namespace laba1
         {
             int n;
             int m;
-            Console.WriteLine("Введите количество строк: "); 
-            n = Convert.ToInt32(Console.ReadLine()); // ввод количества строк
+            Console.WriteLine("Введите количество строк: ");
+            n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите количество столбцов: ");
-            m = Convert.ToInt32(Console.ReadLine()); // ввод количества столбцов
+            m = Convert.ToInt32(Console.ReadLine());
             double[,] array = new double[n, m];
             Random r = new Random();
             Console.WriteLine("Массив:");
