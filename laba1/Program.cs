@@ -18,7 +18,7 @@ namespace laba1
             m = Convert.ToInt32(Console.ReadLine());
             double[,] array = new double[n, m];
             Random r = new Random();
-            Console.WriteLine("Массив:");
+            Console.WriteLine("Массив:"); //создание массива
             for (int i = 0; i < n; i++)
             {
 
