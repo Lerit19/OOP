@@ -24,7 +24,7 @@ namespace laba1
 
                 for (int j = 0; j < m; j++)
                 {
-                    array[i, j] = r.Next(-5, 5);
+                    array[i, j] = r.Next(-10, 10);
 
                     Console.Write("{0}\t", array[i, j]);
                 }
