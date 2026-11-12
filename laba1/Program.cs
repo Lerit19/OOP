@@ -48,7 +48,7 @@ namespace laba1
                 for (int j = 0; j < m; j++)
                 {
                     array[i, j] = array[i, j] / max;
-                    Console.Write("{0}\t", array[i, j]);
+                    Console.Write("{0}\t", Math.Round((array[i, j]),2));
                 }
                 Console.WriteLine();
             }
